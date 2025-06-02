@@ -1,0 +1,138 @@
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    color: white;
+    width: 100%;
+}
+
+footer{
+    margin-top: 40px;
+    background: linear-gradient(180deg, #383838, #2c2c2c);
+    text-align: center;
+    color: white;
+    border-top: 1px solid #6c757d;
+    padding: 1rem 0;
+}
+
+.top1 h1 {
+    font-size: 100px;
+    text-shadow: 
+    2px 2px 0 black,
+   -2px 2px 0 black,
+    2px -2px 0 black,
+   -2px -2px 0 black;
+}
+
+.top2{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.top2 h1{
+    font-size: 40px;
+    text-shadow: 
+    2px 2px 0 black,
+   -2px 2px 0 black,
+    2px -2px 0 black,
+   -2px -2px 0 black;
+}
+
+.present{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-shadow: 
+    2px 2px 0 black,
+   -2px 2px 0 black,
+    2px -2px 0 black,
+   -2px -2px 0 black;
+}
+
+.present p{
+    color: yellow;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 200px;
+}
+.caja{
+    background: linear-gradient(145deg, #333333, #7c7c7c);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 20%;
+    height: auto;
+    border: 3px solid rgb(51, 49, 49);
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+    padding-top: 20px ;
+}
+
+.caja:hover{
+    transform: scale(1.01);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+}
+
+.imag{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.caja button{
+    background: linear-gradient(145deg, #641212, #3b2222);
+    color: white;
+    box-shadow: 0px 2px 10px;
+    border-radius: 15px;
+}
+
+.caja button:hover{
+    background: linear-gradient(#3b2222, #641212 );
+}
+
+.boton2{
+    background: linear-gradient(145deg, #641212, #3b2222);
+    color: white;
+    margin: 10px;
+    padding: 7px, 10px;
+    box-shadow: 0px 2px 10px;
+    border-radius: 15px;
+}
+
+.boton2:hover {
+    transform: scale(1.01);
+}
+
+.caja h1{
+
+    text-shadow: 
+    2px 2px 0 black,
+   -2px 2px 0 black,
+    2px -2px 0 black,
+   -2px -2px 0 black;
+}
