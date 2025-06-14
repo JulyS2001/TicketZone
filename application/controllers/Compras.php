@@ -7,17 +7,6 @@ class Compras extends CI_Controller{
         parent::__construct();
         $this->load->model('Producto_model');
         $this->load->model('Venta_model');
-
-        $config['protocol'] = 'smtp';
-        $config['smtp_host'] = 'smtp.gmail.com';
-        $config['smtp_port'] = 587;
-        $config['smtp_user'] = 'rukysorli@gmail.com'; // dirección de correo
-        $config['smtp_pass'] = 'JulianSorli1'; // contraseña de correo
-        $config['mailtype'] = 'html'; 
-        $config['charset'] = 'utf8mb4';
-        $config['newline'] = "\r\n"; 
-        $config['smtp_crypto'] = 'tls'; 
-
         $this->load->library('email', $config);
     }
 
